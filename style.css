@@ -104,12 +104,12 @@ header {
 	top:0px;
 	right:0px;
 	left:0px;
-	z-index:99999;
+	z-index:400;
 }
 
 .navbar-default {
 	background:#ffffff;
-	border: none;
+	border-bottom: 3px solid #eeeeee;
 	padding:15px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -270,7 +270,7 @@ header {
 }
 
 .btn-lite1:hover {
-	color: #27ae60;
+	color: #ff002b;
 	border: 2px solid #27ae60;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -336,28 +336,8 @@ header {
                     COMMON STYLES
 ---------------------------------------------------------------*/
 
-.pdr {
-
-	padding-right: 50px;
-
-}
-
-
-.pdl {
-
-	padding-left: 50px;
-
-}
-
-
-.borderimages {
-
-	border-radius: 10px;
-
-}
-
 .portfolio-wrap {
-	background:#000000 url(../demo/wrappers/2.jpg) no-repeat center fixed;
+	background:#2980BF url(../demo/wrappers/2.jpg) no-repeat center fixed;
 	background-size:100% auto;
 	padding:120px 0;
 	/*position:relative;*/
@@ -368,28 +348,27 @@ header {
 	color: #fff;
 	text-transform: uppercase;
 	margin: 0 0 15px;
-	padding-bottom: 15px;
 	text-align: center;
 	font-size: 48px;
 	letter-spacing: 4px;
 }
 
 .portfolio-wrap p,.team-wrap p,.pricing-wrap p,.news-wrap p,.contact-wrap p {
-	font-size: 20px;
+	font-size: 22px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 36px;
-	width: 80%;
+	width: 50%;
 	margin: 0 auto;
 	font-family: Lato;
 }
 
 .news-wrap h3 {
-	color: #181818;
+	color: #393f4a;
 }
 
 .team-wrap p {
-	color: #ffffff;
+	color: #f9d9d3;
 }
 
 .pricing-wrap p {
@@ -456,7 +435,7 @@ header {
 #filters li span.active {
 	border: 2px solid #fff;
 	background: #fff;
-	color: #000000;
+	color: #27ae60;
 }
 
 #filters li span:hover,#filters li span.active:hover {
@@ -474,7 +453,6 @@ header {
 	float: left;
 	overflow: hidden;
 	padding: 10px;
-	
 }
 
 .portfolio-wrapper {
@@ -494,7 +472,6 @@ header {
 
 .portfolio:hover img {
 	cursor: pointer;
-
 	transform: scale(1.5);
 	-ms-transform: scale(1.5);
 	-moz-transform: scale(1.5);
@@ -553,7 +530,7 @@ header {
 
 .portfolio:hover .overlay1 {
 	opacity: 1;
-    filter: alpha(opacity=100);
+	filter: alpha(opacity=100);
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
@@ -647,7 +624,7 @@ header {
 ---------------------------------------------------------------*/
 
 .team-wrap {
-	background:#c13f3f url(../demo/wrappers/3.jpg) no-repeat center fixed;
+	background:#db5940 url(../demo/wrappers/3.jpg) no-repeat center fixed;
 	background-size:100% auto;
 	padding:140px 0;
 	/*position:relative;*/
@@ -673,7 +650,7 @@ header {
 .staff-content p {
 	font-size: 18px;
 	text-align: center;
-	color: #c13f3f;
+	color: #ff002b;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-family: Open sans;
@@ -721,9 +698,6 @@ header {
 /*------------------------------------------------------------- 
                     TESTIMONIALS STYLES
 ---------------------------------------------------------------*/
-
-
-
 
 .testimonial-wrap {
 	padding: 105px 0;
@@ -912,18 +886,18 @@ header {
 ---------------------------------------------------------------*/
 
 .news-wrap {
-	background: #ffffff;
+	background: #e6e6e6;
 	padding: 120px 0 20px;
 	position:relative;
 }
 
 .blog-main {
 	background: #fff;
-	padding: 70px 0 20px;
+	padding: 50px 0 20px;
 }
 
 .line-sep1 {
-	background: #c13f3f;
+	background: #ff002b;
 	width: 47px;
 	height: 3px;
 	border-radius: 6px;
@@ -958,11 +932,11 @@ header {
 }
 
 .post-info h4 a {
-	color: #181818;
+	color: #393f4a;
 }
 
 .post-info h4 a:hover {
-	color: #c13f3f;
+	color: #f8bc3b;
 }
 
 .post-info p {
@@ -984,8 +958,8 @@ header {
 ---------------------------------------------------------------*/
 
 .contact-wrap {
-	padding: 80px 0;
-	background:#4593cb url(../demo/wrappers/5.jpg) no-repeat center fixed;
+	padding: 120px 0;
+	background:#2980b9 url(../demo/wrappers/5.jpg) no-repeat center fixed;
 	background-size:100% auto;
 	/*position:relative;*/
 	z-index:1;
@@ -1057,12 +1031,17 @@ header {
 ---------------------------------------------------------------*/
 
 
+.txtjs {
+
+	text-align: justify;
+
+
+}
+
 .padding15 {
 
 	width: auto;
 	padding-left: 15px;
-
-
 
 }
 
@@ -1081,7 +1060,7 @@ header {
 .social li a {
 	width: 40px;
 	height: 40px;
-	color: #2f2f2f;
+	color: #000;
 	text-align: center;
 	line-height: 40px;
 	background: #fff;
@@ -1135,15 +1114,16 @@ footer p a:hover {
 ---------------------------------------------------------------*/
 
 .page-header {
-	background: #f8bc3b;
+	background: #c13f3f;
 	padding: 140px 0 25px;
 }
 
 .page-header h2 {
 	color: #fff;
 	font-size: 52px;
-	margin: 0;
+	margin: 1px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .post-full-info h4 {
@@ -1166,7 +1146,7 @@ footer p a:hover {
 }
 
 .post-author {
-	margin: 35px 0 65px;
+	margin: 45px 0 35px;
 }
 
 .post-meta {
@@ -1211,7 +1191,7 @@ footer p a:hover {
 	font-size: 15px;
 	line-height: 26px;
 	width: 100%;
-	text-align: left;
+	text-align: justify;
 	margin: 0;
 }
 
@@ -1272,12 +1252,12 @@ footer p a:hover {
 }
 
 .lposts a h5:hover {
-	color: #db5940 !important;
+	color: #C13F3E !important;
 }
 
 .line-sep-small {
 	width: 15px;
-	background: #db5940;
+	background: #ff002b;
 	height: 3px;
 	border-radius: 7px;
 	margin: 20px 0;
@@ -1286,6 +1266,17 @@ footer p a:hover {
 .side-links a {
 	width: 100%;
 	color: #393f4a;
+	font-size: 15px;
+	font-weight: 600;
+	display: block;
+	margin-bottom: 10px;
+}
+
+
+
+.side-links a:hover {
+	width: 100%;
+	color: #C13F3E !important;
 	font-size: 15px;
 	font-weight: 600;
 	display: block;
@@ -1339,7 +1330,7 @@ footer p a:hover {
 
 .post-tags {
 	text-transform: uppercase;
-	color: #db5940;
+	color: #C13F3E;
 	font-size: 14px;
 	font-weight: 700;
 }
@@ -1351,13 +1342,13 @@ footer p a:hover {
 }
 
 .post-tags a:hover {
-	color: #db5940;
+	color: #C13F3E;
 }
 
 .post-tags a:hover span {
-	border: 2px solid #db5940;
+	border: 2px solid #C13F3E;
 	background: #fff;
-	color: #db5940;
+	color: #C13F3E;
 }
 
 .comment-author {
@@ -1386,8 +1377,8 @@ footer p a:hover {
 }
 
 .comments-content {
-	padding-bottom: 50px;
-	border-bottom: 1px dashed #b7b7b7;
+	padding-bottom: 65px;
+	border-bottom: 1px solid #eeeeee;
 	margin-bottom: 50px;
 }
 
@@ -1398,14 +1389,13 @@ footer p a:hover {
 .reply {
 	font-size: 14px;
 	font-weight: 700;
-	color: #27ae60;
+	color: #C13F3E;
 	text-transform: uppercase;
 }
 
 .comment-form {
-	border-top: 3px solid #eee;
 	padding-top: 0;
-	margin-top: -51px;
+	
 }
 
 .comments-wrap h5 {
@@ -1465,20 +1455,32 @@ footer p a:hover {
 	border-radius: 5px;
 	color: #fff;
 	text-transform: uppercase;
-	color: #fff;
+	color: #C13F3E;
 	font-size: 14px;
-	background: #27ae60;
+	background: #ffffff;
 	display: table;
 	margin-top: 25px;
 	text-align: center;
 	font-weight: 700;
 	line-height: 50px;
-	border: 2px solid #27ae60;
+	border: 2px solid #C13F3E;
 }
 
 .c-btn:hover {
-	background: #fff;
-	color: #27ae60;
+	
+
+	
+	color: #C13F3E;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 14px;
+	background: #C13F3E;
+	display: table;
+	margin-top: 25px;
+	text-align: center;
+	font-weight: 700;
+	line-height: 50px;
+	border: 2px solid #C13F3E;
 }
 
 .sc1,.sc2,.sc3,.section-title {
@@ -1714,15 +1716,15 @@ footer p a:hover {
 }
 
 .more-posts a:hover {
-	color: #db5940;
+	color: #C13F3E;
 }
 
 .side-widget a:hover {
-	color: #db5940;
+	color: #C13F3E;
 }
 
 .next-post:hover span,.prev-post:hover span {
-	color: #db5940;
+	color: #C13F3E;
 }
 
 .post-home {
@@ -1753,7 +1755,7 @@ footer p a:hover {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #181818;
+	color: #ffffff;
 	font-size: 20px;
 	text-transform: uppercase;
 	margin-top: 5px;
